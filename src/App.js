@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Nav from './components/Nav';
+import Utilities from './components/Utilities';
+import Mint from './components/Mint';
+import Meet from './components/Meet';
+import Footer from './components/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-[#0A0A0A]'>
+     <div className='bg-[url("./assets/images/Hero-bg.png")]'><Nav/></div>
+     <Utilities/>
+     <Mint/>
+     <Meet/>
+     <Footer/>
     </div>
   );
 }
