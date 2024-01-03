@@ -9,6 +9,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation:{
+        'bright': ' bright 3s infinite cubic-bezier(0.19, 1, 0.22, 1)',
+      },
+      keyframes:{
+        bright:{
+          '0%' :{right : '0%'},
+          '100%' :{right: '150%'}
+        }
+      },
       fontFamily:{
         'azo':["Azo Sans Uber W01 Regular"],
         'Montserrat':["'Montserrat', sans-serif "],

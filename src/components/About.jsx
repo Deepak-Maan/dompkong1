@@ -1,61 +1,36 @@
-import React from 'react';
-import Slider from 'react-slick';
-
-const settings = {
- dots: true,
- infinite: true,
- speed: 500,
- slidesToShow: 3,
- slidesToScroll: 1,
- responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        initialSlide: 2,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
- ],
-};
-
+import React from 'react'
+import cars from "../assets/images/cars.png"
+import watches from "../assets/images/watch.png"
+import boat from "../assets/images/bots.png"
 const About = () => {
- const images = [
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
-    'https://via.placeholder.com/300',
- ];
+    return (
+        <div>
+            <div className="max-w-[1140px] mx-auto px-3">
+                <div className="grid xl:grid-cols-2 pt-32 pb-20">
+                    <div>
+                        <h2 className='text-white font-azo font-normal text-[64px] leading-[108%]'>About </h2>
+                        <p className=' font-normal font-Montserrat text-base text-white leading-[160%] max-w-[522px]'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
+                    </div>
+                    <div>
+                        <div className="container1 mx-auto my-[4%] w-[210px] h-[140px] relative">
+                            <div className="w-[216px] h-[216px] bg-[#FDDA60] animate-pulse blur-[131px] absolute"></div>
+                            <div id="carousel" className='w-full h-full absolute'>
+                                <figure className='  absolute block left-[10px] top-[10px] bg-transparent'><img id='slider' src={cars} alt="car" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider1' src={watches} alt="" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider2' src={boat} alt="boast" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider3' src={cars} alt="boast" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider4' src={watches} alt="watches" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider5' src={cars} alt="car" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider6' src={boat} alt="boast" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider7' src={watches} alt="watches" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider6' src={boat} alt="boast" /></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
 
- return (
-    <div className="carousel">
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index} className="slide">
-            <img src={image} alt={`Slide ${index + 1}`} className="w-full h-64 object-cover" />
-          </div>
-        ))}
-      </Slider>
-    </div>
- );
-};
-
-export default About;
+export default About

@@ -21,7 +21,7 @@ export function Footer() {
     const [open, setOpen] = React.useState(0);
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
     return (
-        <div className=' relative mt_-1'>
+        <div className=' relative '>
             <h2 className="font-azo text-[30px] md:text-[64px] text-[#fff] font-normal text-center py-[50px]">FAQs</h2>
             <div className='pb-[200px]'>
                 <div className="container max-[1140px] mx-auto">
