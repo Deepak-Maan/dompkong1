@@ -9,17 +9,46 @@ import Footer from './components/Footer';
 import Roadmap from './components/Roadmap';
 import About from './components/About';
 import Kong from './components/Thekong';
+import Backtotop from './components/Backtotop';
+import { useEffect, useState } from "react";
+import Preloader from './components/Preloader';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {
+        once: true,
+        duration: 700,
+      }
+    );
+  }, [])
+  const [data, setdata] = useState(false);
+  useEffect(() => {
+    setdata(true);
+    setTimeout(() => {
+      setdata(false);
+    }, 3000);
+  }, []);
   return (
-    <div className='bg-[#0A0A0A]'>
-     <div className='bg-[url("./assets/images/Hero-bg.png")]'><Nav/></div>
-     <About/>
-     <Utilities/>
-     <Kong/>
-     <Mint/>
-     <Roadmap/>
-     <Meet/>
-     <Footer/>
+    <div>
+      {data ? (
+        <div>
+          <Preloader />
+        </div>
+      ) : (
+        <div className='bg-[#0A0A0A]'>
+          <div className='bg-[url("./assets/images/Hero-bg.png")]'><Nav/></div>
+          <About />
+          <Utilities />
+          <Kong />
+          <Mint />
+          <Roadmap />
+          <Meet />
+          <Footer />
+          <Backtotop />
+        </div>
+      )}
     </div>
   );
 }

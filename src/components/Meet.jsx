@@ -9,14 +9,14 @@ const Meet = () => {
             <h2 className="text-[33px] md:text-[64px] font-normal leading-[108%] text-white font-azo text-center pt-5 md:pt-[110px]">Meet The Team</h2>
             <div className="max-w-[1140px] h-1 bg-[#FDDA60] mt-12 border-none shadow-[0_0_15px_0_#FDDA60]"></div>
             <div className="flex flex-wrap">
-                <div className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
+                <div  data-aos="zoom-in" className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
                     <h2 className="text-2xl font-bold leading-[108%] font-Montserrat text-white ">Jaylon Schleifer</h2>
                     <p className="text-xl font-normal leading-[108%] font-Montserrat text-white pt-3"> Carter Septimus</p>
                     <div className=" rounded-[20px] border-[3px] border-[#FDDA60] w-[230px] h-[230px] mt-8 shadow-[0_0_15px_0_#FDDA60] overflow-hidden">
                         <img className=" rounded-[20px] hover:scale-[1.1] duration-300" src={Person_sitting} alt="meet" />
                     </div>
                 </div>
-                <div className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
+                <div data-aos="zoom-in-up" className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
                     <p className="text-2xl font-semibold text-white font-Montserrat leading-[108%]">@Jaylon Schleifer</p>
                     <p className="text-xl font-normal leading-[108%] font-Montserrat text-white pt-3 items-start md:items-center">Nearly two decades in Business</p>
                     <p className="text-bace font-normal font-Montserrat text-white leading-[160%] pt-8 items-start md:items-center">Faucibus risus id libero interdum in nisl nibh risus molestie. Gravida purus mauris nulla duis est eleifend. Suspendisse eu iaculis odio sit. Hac orci massa habitasse congue nulla tristique.</p>
@@ -38,14 +38,14 @@ const Meet = () => {
             </div>
             <div className="max-w-[1140px] h-1 bg-[#FDDA60] mt-12 border-none shadow-[0_0_15px_0_#FDDA60]"></div>
             <div className="flex flex-wrap ">
-                <div className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
+                <div  data-aos="zoom-in" className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
                     <h2 className="text-2xl font-bold leading-[108%] font-Montserrat text-white ">Talan Passaquindici Arcand</h2>
                     <p className="text-xl font-normal leading-[108%] font-Montserrat text-white pt-3">Jakob Ekstrom Bothman</p>
                     <div className=" rounded-[20px] border-[3px] border-[#FDDA60] w-[230px] h-[230px] mt-8 shadow-[0_0_15px_0_#FDDA60] overflow-hidden">
                         <img className=" rounded-[20px] hover:scale-[1.1] duration-300" src={Person_smiling} alt="meet" />
                     </div>
                 </div>
-                <div className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
+                <div data-aos="zoom-in-up" className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
                     <p className="text-2xl font-semibold text-white font-Montserrat leading-[108%]">@Talan Passaquindici Arcand</p>
                     <p className="text-xl font-normal leading-[108%] font-Montserrat text-white pt-3">Invester & International Top Model</p>
                     <p className="text-bace font-normal font-Montserrat text-white leading-[160%] pt-8">Neque hendrerit lectus neque molestie facilisis. Faucibus arcu eget facilisis nisl id ultricies. Aliquet eget scelerisque posuere habitant mauris quis ridiculus rutrum consectetur.</p>
@@ -67,14 +67,14 @@ const Meet = () => {
             </div>
             <div className="max-w-[1140px] h-1 bg-[#FDDA60] mt-12 border-none shadow-[0_0_15px_0_#FDDA60]"></div>
             <div className="flex flex-wrap">
-                <div className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
+                <div  data-aos="zoom-in" className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
                     <h2 className="text-2xl font-bold leading-[108%] font-Montserrat text-white ">Alfonso Franci</h2>
                     <p className="text-xl font-normal leading-[108%] font-Montserrat text-white pt-3">Alfonso Dokidis</p>
                     <div className=" rounded-[20px] border-[3px] border-[#FDDA60] w-[230px] h-[230px] mt-8 shadow-[0_0_15px_0_#FDDA60] overflow-hidden">
                         <img className=" rounded-[20px] hover:scale-[1.1] duration-300" src={Person_serious} alt="meet" />
                     </div>
                 </div>
-                <div className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
+                <div data-aos="zoom-in-up" className=" w-full md:w-1/2 pt-6 flex flex-col items-center md:items-start">
                     <p className="text-2xl font-semibold text-white font-Montserrat leading-[108%]">@Alfonso Franci</p>
                     <p className="text-xl font-normal leading-[108%] font-Montserrat text-white pt-3">Nearly two decades in Business</p>
                     <p className="text-bace font-normal font-Montserrat text-white leading-[160%] pt-8">A ut sagittis, purus sit integer suspendisse lacus quam auctor. Interdum venenatis, sed ligula purus erat. A hac faucibus blandit euismod molestie amet nibh scelerisque.</p>

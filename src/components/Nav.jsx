@@ -14,8 +14,8 @@ import white_large_monkey from "../assets/images/large-monkey.png";
 const Hero = () => {
   return (
     <div className='min-h-screen relative'>
-      <img className=' absolute top-0 left-0' src={leftYellow} alt="yellow lines" />
-      <img className=' absolute top-0 right-0' src={rightYellow} alt="yellow lines" />
+      <img  data-aos="fade-up-right" data-aos-duration="900" className=' absolute top-0 left-0' src={leftYellow} alt="yellow lines" />
+      <img data-aos="fade-up-left" data-aos-duration="2000" className=' absolute top-0 right-0' src={rightYellow} alt="yellow lines" />
       <img className='absolute bottom-0 right-[30%] z-0' src={smallmonkey} alt="monkey" />
       <img className='absolute bottom-0 right-[10%] z-0' src={white_medium_monkey} alt="monkey" />
       <img className='absolute bottom-0 right-0 z-0' src={white_large_monkey} alt="monkey" />
