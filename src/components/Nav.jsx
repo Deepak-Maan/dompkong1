@@ -25,12 +25,12 @@ const Hero = () => {
           <button className='text-black font-azo absolute right-0 top-[20%] bg-[#FDDA60] rounded py-4 px-6 shadow-yellow text-base fontf-normal uppercase'>cONNECT wALLET</button>
         </div>
         <div className='flex gap-6 justify-center pt-5 pb-10 relative z-10'>
-          <a href=""><img src={Twitter} alt="twitter" /></a>
-          <a href=""><img src={Opensea} alt="Opensea" /></a>
-          <a href=""><img src={Diamond} alt="diamond" /></a>
-          <a href=""><img src={Discord} alt="discord" /></a>
-          <a href=""><img src={Medium} alt="Medium" /></a>
-          <a href=""><img src={Telegram} alt="telegram" /></a>
+          <a href=""><img className='hover:-translate-y-1 duration-500' src={Twitter} alt="twitter" /></a>
+          <a href=""><img className='hover:-translate-y-1 duration-500' src={Opensea} alt="Opensea" /></a>
+          <a href=""><img className='hover:-translate-y-1 duration-500' src={Diamond} alt="diamond" /></a>
+          <a href=""><img className='hover:-translate-y-1 duration-500' src={Discord} alt="discord" /></a>
+          <a href=""><img className='hover:-translate-y-1 duration-500' src={Medium} alt="Medium" /></a>
+          <a href=""><img className='hover:-translate-y-1 duration-500' src={Telegram} alt="telegram" /></a>
         </div>
           <h1 className=" text-[34px] relative z-10  md:text-[64px] font-normal leading-[108%] text-white  text-center  font-azo">WELCOME <br /> TO <span className="text-[#F1C85D] relative after:absolute after:w-full after:h-[5px] after:bg-[#F1C85D] after:bottom-0 after:left-0">DomPKong</span> </h1>
           <p className="text-base  relative z-10 font-normal text-white max-w-[506px] text-center mx-auto pt-5 font-Montserrat">Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vita</p>
