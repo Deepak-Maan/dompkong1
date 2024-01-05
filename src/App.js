@@ -21,6 +21,7 @@ function App() {
       {
         once: true,
         duration: 700,
+        disable: 'mobile'
       }
     );
   }, [])

@@ -13,7 +13,7 @@ import white_medium_monkey from "../assets/images/white-medium-monkey.png";
 import white_large_monkey from "../assets/images/large-monkey.png";
 const Hero = () => {
   return (
-    <div className='min-h-screen relative bg-hero-gradient'>
+    <div className='min-h-screen relative bg-hero-gradient overflow-x-clip'>
       <img  data-aos="fade-up-right" data-aos-duration="900" className=' absolute top-0 left-0 w-2/5' src={leftYellow} alt="yellow lines" />
       <img data-aos="fade-up-left" data-aos-duration="2000" className=' absolute top-0 right-0 w-2/5' src={rightYellow} alt="yellow lines" />
       <img className='absolute bottom-0 right-[30%] z-0 max-md:w-2/5' src={smallmonkey} alt="monkey" />

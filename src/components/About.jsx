@@ -8,8 +8,8 @@ const About = () => {
             <div className="max-w-[1140px] mx-auto px-3">
                 <div className="grid xl:grid-cols-2 pt-4 sm:pt-8 md:pt-16 lg:pt-32 md:pb-10 sm:pb-5 lg:pb-20">
                     <div>
-                        <h2 className='text-white font-azo font-normal text-[64px] leading-[108%]'>About </h2>
-                        <p className=' font-normal font-Montserrat text-base text-white leading-[160%] max-w-[522px]'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
+                        <h2 className='text-white font-azo font-normal text-[64px] leading-[108%] max-xl:text-center'>About </h2>
+                        <p className=' font-normal font-Montserrat text-base text-white leading-[160%] max-w-[522px] max-xl:mx-auto'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
                     </div>
                     <div>
                         <div className="container1 mx-auto my-[4%] w-[210px] h-[140px] relative">

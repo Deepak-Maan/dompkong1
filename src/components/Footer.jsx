@@ -57,7 +57,7 @@ export function Footer() {
                         <AccordionBody className="font-Montserrat text-[14px] md:text-[16px] font-normal text-white max-w-[829px] pt-[10px] ">Arcu faucibus diam feugiat magna etiam. Leo ridiculus mauris, risus vitae luctus volutpat turpis. Nisl, consequat tellus laoreet viverra diam nulla. Etiam vitae, proin Leo at nibh nibh. </AccordionBody>
                     </Accordion>
                 </div>
-                <a href="" className='flex justify-center pt-24'><img src={logo} alt="logo" /></a>
+                <a href="" className='flex justify-center pt-5 md:pt-12 lg:pt-24'><img src={logo} alt="logo" /></a>
                 <div className='flex gap-6 justify-center relative py-7 after:flex after:absolute after:h-[1px] after:w-[1920px] after:bg-white after:bottom-0 '>
                     <a href="https://twitter.com/i/flow/login" target=' _blank'><img className='hover:-translate-y-1 duration-500' src={Twitter} alt=" social logo" /></a>
                     <a href=""><img className='hover:-translate-y-1 duration-500' src={Opensea} alt=" social logo" /></a>
