@@ -5,8 +5,8 @@ import Roadmap_half_circle from "../assets/images/half-roadmap-circle.svg";
 function Roadmap() {
     return (
         <div className="overflow-x-clip">
-            <div className=" min-h-[1044px] pb-6 xl:pb-0">
-                <h2 className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pt-4 md:pt-[94px] pb-[71px]">Roadmap</h2>
+            <div className=" min-h-[1044px] pb-4 sm:pb-6 xl:pb-0">
+                <h2 className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pt-4 md:pt-[94px] pb-4 md:pb-9 lg:pb-[71px]">Roadmap</h2>
                 <div className="max-w-[1234px] mx-auto px-3 min-h-[558px] flex flex-wrap justify-center">
                     <div data-aos="fade-up-right" className="w-[100%] xl:w-[36%] pb-6 xl:pb-0 xl:min-h-[558px] flex items-center relative justify-center xl:justify-start">
                         <img src={RoadmapImg} alt="ape" />
@@ -78,8 +78,8 @@ function Roadmap() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center mt-11">
-                    <button className=" duration-300 hover:animate-pulse bg-[#FDDA60] rounded-[4px] shadow-[0px_9px_29px_0px_rgba(253,218,96,0.50)] py-4 px-6 font-azo text-[20px] font-normal"> Read Our Whitepaper</button>
+                <div className="flex justify-center mt-11 pb-4">
+                    <button className=" duration-300 hover:bg-black hover:text-white bg-[#FDDA60] border border-[#FDDA60] rounded-[4px] shadow-[0px_9px_29px_0px_rgba(253,218,96,0.50)] py-4 px-6 font-azo text-[20px] font-normal"> Read Our Whitepaper</button>
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@ const Mint = () => {
                             </div>
                             <div className='w-[75px] h-[65px] rounded bg-white flex justify-center items-center'><p className='text-4xl font-black font-Montserrat leading-[108%] text-black ' onClick={incCount}>+</p></div>
                         </div>
-                        <button className='text-2xl font-normal leading-[108%] font-azo text-black bg-[#FDDA60] rounded shadow-[rgba(253, 218, 96, 0.50)] py-4 px-[68px] sm:px-[168px] mt-9 max-w-[494px] hover:animate-pulse duration-300'>MINT NOW</button>
+                        <button className='text-2xl font-normal border border-[#FDDA60] shadow-yellow hover:bg-black hover:text-white leading-[108%] font-azo text-black bg-[#FDDA60] rounded shadow-[rgba(253, 218, 96, 0.50)] py-4 px-[68px] sm:px-[168px] mt-9 max-w-[494px]  duration-300'>MINT NOW</button>
                     </div>
                 </div>
                 <div className='w-[173px] h-[173px] bg-[#FDDA60] blur-[146px] absolute left-0 top-2 animate-pulse hidden md:block'></div>

@@ -3,9 +3,9 @@ import React from "react";
 const Utilities = () => {
   return (
     <div>
-      <div className="max-w-[1140px] mx-auto px-3 pb-5 md:pb-[154px]">
+      <div className="max-w-[1140px] mx-auto mt-4 px-3 pb-5 md:pb-[154px]">
         <h2 className=" text-[51px] md:text-[64px] font-normal leading-[108%] text-white font-azo text-center pt-10 ">Utilities</h2>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 pt-14 gap-4 ">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 pt-4 md:pt-7 lg:pt-14 gap-4 ">
           <div data-aos="zoom-out-up" className=" rounded-2xl bg-[#222222] overflow-hidden backdrop-blur-lg border border-[#515151] py-[22px] px-[20px] relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
             <span className=" flex flex-col items-center ">
               <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" >

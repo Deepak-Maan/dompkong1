@@ -14,6 +14,7 @@ import { useEffect, useState } from "react";
 import Preloader from './components/Preloader';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Partner from './components/Partner';
 function App() {
   useEffect(() => {
     AOS.init(
@@ -44,6 +45,7 @@ function App() {
           <Kong />
           <Mint />
           <Roadmap />
+          <Partner/>
           <Meet />
           <Footer />
           <Backtotop />

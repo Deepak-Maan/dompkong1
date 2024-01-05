@@ -27,7 +27,10 @@ module.exports = {
       },
       background:{
         'light':'rgba(255, 255, 255, 0.10)'
-      }    
+      },
+      backgroundImage: {
+        'hero-gradient': 'linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 84.14%, #0B0B0B 100%)',
+      },    
     },
   },
   plugins: [],

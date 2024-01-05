@@ -59,15 +59,17 @@ export function Footer() {
                 </div>
                 <a href="" className='flex justify-center pt-24'><img src={logo} alt="logo" /></a>
                 <div className='flex gap-6 justify-center relative py-7 after:flex after:absolute after:h-[1px] after:w-[1920px] after:bg-white after:bottom-0 '>
-                    <a href=""><img className='hover:-translate-y-1 duration-500' src={Twitter} alt=" social logo" /></a>
+                    <a href="https://twitter.com/i/flow/login" target=' _blank'><img className='hover:-translate-y-1 duration-500' src={Twitter} alt=" social logo" /></a>
                     <a href=""><img className='hover:-translate-y-1 duration-500' src={Opensea} alt=" social logo" /></a>
                     <a href=""><img className='hover:-translate-y-1 duration-500' src={Diamond} alt=" social logo" /></a>
-                    <a href=""><img className='hover:-translate-y-1 duration-500' src={Discord} alt=" social logo" /></a>
+                    <a href="https://discord.com/" target='_blank'><img className='hover:-translate-y-1 duration-500' src={Discord} alt=" social logo" /></a>
                     <a href=""><img className='hover:-translate-y-1 duration-500' src={Medium} alt=" social logo" /></a>
-                    <a href=""><img className='hover:-translate-y-1 duration-500' src={Telegram} alt=" social logo" /></a>
+                    <a href="https://web.telegram.org/" target='_blank'><img className='hover:-translate-y-1 duration-500' src={Telegram} alt=" social logo" /></a>
                 </div>
                 <p className='text-base font-Montserrat font-normal text-white pt-4 pb-5 text-center'>© DomPKong {(new Date().getFullYear())}</p>
             </div>
+            <div className='w-[132px] h-[132px] bg-[#FDDA60] blur-[146px] absolute left-[10%] top-[20%] animate-pulse hidden md:block'></div>
+            <div className='w-[247px] h-[247px] bg-[#FDDA60] blur-[146px] absolute left-0 animate-pulse bottom-0 leading-[296px] hidden md:block'></div>
         </div>
     );
 }
