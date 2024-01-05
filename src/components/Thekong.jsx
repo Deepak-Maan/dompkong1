@@ -26,7 +26,7 @@ const KongTab = () => {
         setTabs(tabs)
     }
     return (
-        <div className='flex w-full overflow-x-hidden mt-1 relative pb-24'>
+        <div className='flex w-full overflow-x-hidden mt-1 relative lg:pb-24 md:pb-12 pb-6'>
             <div className='grid grid-cols-1 sm:grid-cols-4 w-full mx-auto gap-6 relative'>
             <h2 data-aos="fade-right" data-aos-duration="2000" className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-0 sm:top-6 text-center'>The Kongs</h2>
                 <div className='col-span-1'>

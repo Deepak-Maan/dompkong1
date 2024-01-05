@@ -15,7 +15,7 @@ const Mint = () => {
         <div className='bg-mint-img relative py-12 md:py-0 overflow-x-clip'>
             <div className='max-w-[1000px] mx-auto px-3 flex flex-wrap '>
                 <div className=' w-full md:w-1/2 flex justify-center md:justify-start'>
-                    <img className='' src={BottleImg} alt="bottle" />
+                    <img className='max-sm:w-[60%]' src={BottleImg} alt="bottle" />
                 </div>
                 <div className=' w-full md:w-1/2 flex flex-col justify-center items-center '>
                     <div className='max-w-[511px] w-full '>
