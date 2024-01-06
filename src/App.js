@@ -40,13 +40,13 @@ function App() {
         </div>
       ) : (
         <div className='bg-[#0A0A0A]'>
-          <div className='bg-[url("./assets/images/Hero-bg.png")]'><Nav/></div>
+          <div className='bg-[url("./assets/images/Hero-bg.png")]'><Nav /></div>
           <About />
           <Utilities />
           <Kong />
           <Mint />
           <Roadmap />
-          <Partner/>
+          <Partner />
           <Meet />
           <Footer />
           <Backtotop />
