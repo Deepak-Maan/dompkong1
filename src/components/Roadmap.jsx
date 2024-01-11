@@ -72,7 +72,7 @@ function Roadmap() {
                     </div>
                 </div>
                 <div className="flex justify-center mt-11 pb-4">
-                    <button className=" duration-300 hover:bg-black hover:text-white bg-[#FDDA60] border border-[#FDDA60] rounded-[4px] shadow-[0px_9px_29px_0px_rgba(253,218,96,0.50)] py-4 px-6 font-azo text-[18px] sm:text-[20px] font-normal"> Read Our Whitepaper</button>
+                    <button className=" duration-300 before:z-[-1] relative before:transition-all before:ease-linear before:duration-300 before:absolute before:left-[-100%] before:hover:left-0 before:hover:w-full before:top-0 before:w-full before:h-full before:bg-black overflow-hidden before:rounded before:hover:text-white hover:text-white z-[1] bg-[#FDDA60] border border-[#FDDA60] rounded-[4px] shadow-[0px_9px_29px_0px_rgba(253,218,96,0.50)] py-4 px-6 font-azo text-[18px] sm:text-[20px] font-normal"> Read Our Whitepaper</button>
                 </div>
             </div>
         </div>
