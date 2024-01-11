@@ -20,17 +20,75 @@ import Kong7 from '../assets/images/kong-small7.png'
 import Kong8 from '../assets/images/kong-small8.png'
 import Kong9 from '../assets/images/kong-small9.png'
 import Kong10 from '../assets/images/kong-small10.png'
+import Slider from 'react-slick'
 const KongTab = () => {
     const [tab, setTabs] = useState("tab1")
     function tabChange(tabs) {
         setTabs(tabs)
     }
+    var settings = {
+        dots: false,
+        infinite: true,
+        // speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: true,
+        autoplaySpeed: 0,
+        easing: "linear",
+        speed: "4000",
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+                },
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                },
+            },
+        ],
+    };
     return (
         <div className='flex w-full overflow-x-hidden mt-1 relative lg:pb-24 md:pb-12 pb-6'>
-            <div className='grid grid-cols-1 sm:grid-cols-4 w-full mx-auto gap-6 relative'>
-            <h2 data-aos="fade-right" data-aos-duration="2000" className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-0 sm:top-6 text-center'>The Kongs</h2>
-                <div className='col-span-1'>
-                    <div className='flex sm:flex-col justify-around max-xs:pt-12 max-sm:pt-14 flex-wrap gap-7'>
+            <div className='grid grid-cols-1 xl:grid-cols-4 w-full mx-auto gap-6 relative'>
+                <h2 data-aos="fade-right" data-aos-duration="2000" className='text-white font-azo font-normal leading-8 md:leading-[69px] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] w-full uppercase absolute top-0 sm:top-6 text-center'>The Kongs</h2>
+                <div className='col-span-1 max-xl:pt-36'>
+                    <Slider className=" max-xl:!block !hidden  max-w-[1416px] mx-auto px-3 w-full mt-6"
+                        {...settings}  >
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab2")} className=' border w-full xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] h-full object-cover mx-4 min-xl:max-w-[140px]' src={Kong1} alt='Kong' />
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab3")} className=' border w-full xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] h-full object-cover mx-4 min-xl:max-w-[140px]' src={Kong2} alt='Kong' />
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab4")} className=' border w-full xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] h-full object-cover mx-4 min-xl:max-w-[140px]' src={Kong3} alt='Kong' />
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab5")} className=' border w-full xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] h-full object-cover mx-4 min-xl:max-w-[140px]' src={Kong4} alt='Kong' />
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab6")} className=' border w-full xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] h-full object-cover mx-4 min-xl:max-w-[140px]' src={Kong5} alt='Kong' />
+                        </div>
+                    </Slider>
+                    <div className='flex sm:flex-col max-xl:hidden justify-around max-xs:pt-12 max-sm:pt-14 flex-wrap gap-7'>
                         <div data-aos="fade-right" data-aos-duration="2000" className='sm:flex sm:justify-start sm:-translate-x-7'>
                             <img onClick={() => tabChange("tab2")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong1} alt='Kong' />
                         </div>
@@ -48,8 +106,8 @@ const KongTab = () => {
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-duration="2000" className='sm:col-span-2 relative max-xs:mb-4 max-sm:mb-10 sm:mt-[29px]'>
-                <div className='w-[296px] h-[296px] bg-[#FDDA60] blur-[146px] absolute right-[30%] z-[0] animate-pulse top-[30%] leading-[296px] hidden md:block'></div>
+                <div data-aos="fade-down" data-aos-duration="2000" className='sm:col-span-2 justify-center flex items-center relative max-xs:mb-4 max-sm:mb-10 sm:mt-[29px]'>
+                    <div className='w-[296px] h-[296px] bg-[#FDDA60] blur-[146px] absolute right-[30%] z-[0] animate-pulse top-[30%] leading-[296px] hidden md:block'></div>
                     {tab === "tab1" &&
                         <div className='flex justify-center items-center relative z-[3]'>
                             <img src={bigKong_default} alt='kong' />
@@ -107,7 +165,7 @@ const KongTab = () => {
                     }
                 </div>
                 <div className='col-span-1'>
-                    <div className="flex sm:flex-col justify-around max-sm:pb-5 flex-wrap-reverse gap-7">
+                    <div className="flex sm:flex-col max-xl:hidden justify-around max-sm:pb-5 flex-wrap-reverse gap-7">
                         <div data-aos="fade-left" data-aos-duration="2000" className='sm:flex sm:justify-end sm:translate-x-7 '>
                             <img onClick={() => tabChange("tab7")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong6} alt='Kong' />
                         </div>
@@ -124,6 +182,29 @@ const KongTab = () => {
                             <img onClick={() => tabChange("tab11")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] max-xs:max-w-[45px] max-sm:max-w-[60px] max-md:max-w-[80px] max-lg:max-w-[100px] max-xl:max-w-[140px]' src={Kong10} alt='Kong' />
                         </div>
                     </div>
+                    <Slider className=" max-xl:!block !hidden max-w-[1416px] mx-auto px-3 w-full mb-6 max-xl:pt-10"
+                        {...settings} >
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab7")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)]  w-full h-full object-cover  min-xl:max-w-[140px]' src={Kong6} alt='Kong' />
+
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab8")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] w-full h-full object-cover  min-xl:max-w-[140px]' src={Kong7} alt='Kong' />
+
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab9")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] w-full h-full object-cover min-xl:max-w-[140px]' src={Kong8} alt='Kong' />
+
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab10")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)] w-full h-full object-cover min-xl:max-w-[140px]' src={Kong9} alt='Kong' />
+
+                        </div>
+                        <div className="px-4">
+                            <img onClick={() => tabChange("tab11")} className=' border xs:border-[2px] sm:border-[4px] border-[#FDDA60] rounded sm:rounded-lg shadow-[0_1px_5px_2px_rgba(253,218,96,20.88)] sm:shadow-[0_1px_15px_2px_rgba(253,218,96,20.88)]  w-full h-full object-cover min-xl:max-w-[140px]' src={Kong10} alt='Kong' />
+
+                        </div>
+                    </Slider>
                 </div>
             </div>
         </div>

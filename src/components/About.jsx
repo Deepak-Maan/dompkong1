@@ -15,15 +15,15 @@ const About = () => {
                         <div className="container1 mx-auto my-[4%] w-[210px] h-[140px] relative">
                             <div className="w-[216px] h-[216px] bg-[#FDDA60] animate-pulse blur-[131px] absolute"></div>
                             <div id="carousel" className='w-full h-full absolute mb-4'>
-                                <figure className='  absolute block left-[10px] top-[10px] bg-transparent'><img id='slider' src={cars} alt="car" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider1' src={watches} alt="" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider2' src={boat} alt="boast" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider3' src={cars} alt="boast" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider4' src={watches} alt="watches" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider5' src={cars} alt="car" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider6' src={boat} alt="boast" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider7' src={watches} alt="watches" /></figure>
-                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img id='slider6' src={boat} alt="boast" /></figure>
+                                <figure className='  absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider' src={cars} alt="car" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider1' src={watches} alt="" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider2' src={boat} alt="boast" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider3' src={cars} alt="boast" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider4' src={watches} alt="watches" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider5' src={cars} alt="car" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider6' src={boat} alt="boast" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider7' src={watches} alt="watches" /></figure>
+                                <figure className=' absolute block left-[10px] top-[10px] bg-transparent'><img className='mx-3' id='slider6' src={boat} alt="boast" /></figure>
                             </div>
                         </div>
                     </div>

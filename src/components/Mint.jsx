@@ -37,13 +37,13 @@ const Mint = () => {
                             <p className='text-white text-bace font-normal font-Montserrat leading-[160%] md:w-[177px] '>Transaction per wallet</p>
                         </div>
                         <div className='flex gap-4 pt-12'>
-                            <div className='w-[75px] h-[65px] rounded bg-white flex justify-center items-center'><p className='text-4xl font-black font-Montserrat leading-[108%] text-black ' onClick={decCount}>-</p></div>
+                            <div  onClick={decCount} className=' cursor-pointer  w-[75px] h-[65px] rounded bg-white flex justify-center items-center'><p className='text-4xl font-black font-Montserrat leading-[108%] text-black '>-</p></div>
                             <div className='w-[320px] h-[65px] rounded border border-[#fff] flex justify-center items-center'>
                                 <p className='text-4xl font-black font-Montserrat leading-[108%] text-white'>0{count}</p>
                             </div>
-                            <div className='w-[75px] h-[65px] rounded bg-white flex justify-center items-center'><p className='text-4xl font-black font-Montserrat leading-[108%] text-black ' onClick={incCount}>+</p></div>
+                            <div onClick={incCount} className=' cursor-pointer  w-[75px] h-[65px] rounded bg-white flex justify-center items-center'><p className='text-4xl font-black font-Montserrat leading-[108%] text-black '>+</p></div>
                         </div>
-                        <button className='text-2xl font-normal border border-[#FDDA60] shadow-yellow hover:bg-black hover:text-white leading-[108%] font-azo text-black bg-[#FDDA60] rounded shadow-[rgba(253, 218, 96, 0.50)] py-4 px-[68px] sm:px-[168px] mt-9 max-w-[494px]  duration-300'>MINT NOW</button>
+                        <button className='text-2xl font-normal border border-[#FDDA60] shadow-yellow hover:bg-black hover:text-white leading-[108%] font-azo text-black bg-[#FDDA60] rounded shadow-[rgba(253, 218, 96, 0.50)] py-4 px-[68px] sm:px-[168px] mt-9 sm:max-w-[494px] w-full  duration-300'>MINT NOW</button>
                     </div>
                 </div>
                 <div className='w-[173px] h-[173px] bg-[#FDDA60] blur-[146px] absolute left-0 top-2 animate-pulse hidden md:block'></div>

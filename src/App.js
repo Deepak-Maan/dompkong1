@@ -16,6 +16,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Partner from './components/Partner';
 function App() {
+ 
+
   useEffect(() => {
     AOS.init(
       {
@@ -40,7 +42,7 @@ function App() {
         </div>
       ) : (
         <div className='bg-[#0A0A0A]'>
-          <div className='bg-[url("./assets/images/Hero-bg.png")]'><Nav /></div>
+          <div className='bg-[url("./assets/images/Hero-bg.png")] bg-no-repeat bg-cover'><Nav /></div>
           <About />
           <Utilities />
           <Kong />

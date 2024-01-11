@@ -5,8 +5,8 @@ const Utilities = () => {
     <div>
       <div className="max-w-[1140px] mx-auto mt-4 px-3 pb-5 md:pb-[154px]">
         <h2 className=" text-[51px] md:text-[64px] font-normal leading-[108%] text-white font-azo text-center pt-10 ">Utilities</h2>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 pt-4 md:pt-7 lg:pt-14 gap-4 ">
-          <div data-aos="zoom-out-up" className=" rounded-2xl bg-[#222222] overflow-hidden backdrop-blur-lg border border-[#515151] py-[22px] px-[20px] relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 p5-4 md:pt-7 lg:pt-14 gap-4 ">
+          <div  className=" rounded-2xl bg-[#222222] overflow-hidden backdrop-blur-lg border border-[#515151] py-[22px] px-[20px] relative hover:bg-[#FDDA60] hover:text-black !duration-500 group">
             <span className=" flex flex-col items-center ">
               <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" >
                 <path className="group-hover:stroke-black"d="M32.6654 4.6665L13.9987 4.6665C12.761 4.6665 11.574 5.15817 10.6989 6.03334C9.8237 6.90851 9.33203 8.09549 9.33203 9.33317L9.33203 46.6665C9.33203 47.9042 9.8237 49.0912 10.6989 49.9663C11.574 50.8415 12.761 51.3332 13.9987 51.3332L41.9987 51.3332C43.2364 51.3332 44.4234 50.8415 45.2985 49.9663C46.1737 49.0912 46.6654 47.9042 46.6654 46.6665L46.6654 18.6665L32.6654 4.6665Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,7 +21,7 @@ const Utilities = () => {
             <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
             <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
           </div>
-          <div  data-aos="flip-left" className="rounded-2xl bg-[#222222] overflow-hidden backdrop-blur-lg border border-[#515151] py-[22px] px-[20px]  relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
+          <div   className="rounded-2xl bg-[#222222] overflow-hidden backdrop-blur-lg border border-[#515151] py-[22px] px-[20px]  relative hover:bg-[#FDDA60] hover:text-black !duration-500 group">
             <span className=" flex flex-col items-center ">
               <svg width="56"height="56"viewBox="0 0 56 56"fill="none"xmlns="http://www.w3.org/2000/svg" >
                 <path className="group-hover:stroke-black"d="M46.668 16.3335H9.33464C6.75731 16.3335 4.66797 18.4228 4.66797 21.0002V44.3335C4.66797 46.9108 6.75731 49.0002 9.33464 49.0002H46.668C49.2453 49.0002 51.3346 46.9108 51.3346 44.3335V21.0002C51.3346 18.4228 49.2453 16.3335 46.668 16.3335Z"stroke="white"stroke-width="4"stroke-linecap="round"stroke-linejoin="round"/>
@@ -33,7 +33,7 @@ const Utilities = () => {
             <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute right-0 top-0"></div>
             <div className="w-[91px] h-[91px] bg-[#fff] blur-[94px] absolute left-0 bottom-0"></div>
           </div>
-          <div data-aos="zoom-out-down" className="rounded-2xl bg-[#222222] overflow-hidden backdrop-blur-lg border border-[#515151] py-[22px] px-[20px]  relative hover:bg-[#FDDA60] hover:text-black duration-300 group">
+          <div  className="rounded-2xl bg-[#222222] overflow-hidden backdrop-blur-lg border border-[#515151] py-[22px] px-[20px]  relative hover:bg-[#FDDA60] hover:text-black !duration-500 group">
             <span className=" flex flex-col items-center ">
               <svg className="group-hover:fill-black"width="56"height="56"viewBox="0 0 56 56"fill="none"xmlns="http://www.w3.org/2000/svg">
                 <path className="group-hover:fill-black"d="M12.4441 12.7554H37.333V15.2443H12.4441V12.7554ZM12.4441 25.1998H25.0223V27.6887H12.4441V25.1998ZM36.3654 18.9776H12.4441V21.4665H33.8781L36.3654 18.9776ZM19.8999 45.2229C20.3183 45.7027 20.8493 46.071 21.4453 46.2948C22.0413 46.5185 22.6836 46.5906 23.3143 46.5047H35.4523C35.7411 46.5047 36.0181 46.39 36.2223 46.1858C36.4265 45.9816 36.5412 45.7046 36.5412 45.4158C36.5412 45.127 36.4265 44.8501 36.2223 44.6459C36.0181 44.4416 35.7411 44.3269 35.4523 44.3269H23.3143C21.8972 44.302 22.1492 43.0716 22.3483 42.6905C22.6079 42.2432 22.8102 41.765 22.9503 41.2671C23.0433 40.8666 22.9995 40.4464 22.8258 40.0737C22.6521 39.701 22.3586 39.3971 21.9921 39.2107C21.4032 38.9454 20.7437 38.8804 20.1144 39.0257C19.485 39.1709 18.9207 39.5184 18.5077 40.0149C17.9725 40.5672 17.229 41.4118 16.5165 42.2331C16.9568 40.508 17.5277 38.2945 18.0877 36.1354C18.2481 35.6434 18.2162 35.1089 17.9983 34.6396C17.7803 34.1702 17.3926 33.8009 16.9132 33.606C16.3823 33.4239 15.8021 33.4499 15.2896 33.6789C14.7772 33.9078 14.3707 34.3226 14.1521 34.8396C13.4801 36.1323 8.1601 45.0471 8.10722 45.1374C8.03388 45.2601 7.98544 45.3962 7.96467 45.5376C7.9439 45.6791 7.9512 45.8233 7.98616 45.962C8.02112 46.1007 8.08304 46.2311 8.1684 46.3458C8.25376 46.4606 8.36089 46.5574 8.48366 46.6307C8.73161 46.7788 9.02824 46.8224 9.30829 46.7518C9.58835 46.6812 9.82889 46.5022 9.97699 46.2543C10.1761 45.9198 14.4228 38.8063 15.7621 36.4309C14.7541 40.3198 13.6434 44.6474 13.5781 45.0363C13.5046 45.3222 13.5266 45.6243 13.641 45.8965C13.7553 46.1687 13.9556 46.3959 14.2112 46.5436C14.496 46.6848 14.8196 46.7272 15.1311 46.6641C15.4427 46.601 15.7243 46.436 15.9317 46.1951C16.1277 46.0178 16.4948 45.5963 17.4203 44.5214C18.2827 43.5071 19.1659 42.5109 20.0694 41.5331C20.4085 41.1754 20.6139 41.334 20.4148 41.6856C20.0253 42.1778 19.7727 42.7641 19.6826 43.3852C19.5924 44.0064 19.6679 44.6403 19.9014 45.2229H19.8999Z"fill="white"/>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
-@import url(https://db.onlinewebfonts.com/c/d03165bd677535fe8da7479e26b13180?family=Azo+Sans+Uber+W01+Regular);
+@import url("https://db.onlinewebfonts.com/c/d03165bd677535fe8da7479e26b13180?family=Azo+Sans+Uber+W01+Regular");
 *{
     scroll-behavior: smooth;
 }
@@ -57,7 +57,7 @@
     transform: rotateY(320deg) translateZ(288px);
 }
 
-@keyframes rotation {
+ @keyframes rotation {
     from {
         transform: rotateY(0deg);
     }
@@ -65,9 +65,17 @@
     to {
         transform: rotateY(360deg);
     }
-}
+} 
 @media (max-width:1279.7px) {
     .container1 {
     transform: unset;
+    }
+}
+.slick-slider{
+    display: block;
+}
+@media (min-width:1200) {
+    .slick-slider{
+        display: none !important;
     }
 }
